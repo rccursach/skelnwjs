@@ -1,0 +1,17 @@
+body {
+	color: #ffffff;
+	background-color: #23221c;
+}
+
+.rb-title-bar {
+	background-color: #13120c;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-right: 5px;
+	-webkit-app-region: drag;
+}
+
+.rb-title-buttons {
+	-webkit-app-region: no-drag;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "skelnwjs",
+  "version": "0.0.1",
+  "description": "Skeleton app for node-webkit app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "nw": "^0.12.2"
+  },
+  "window": {
+    "title": "skelnwjs",
+    "icon": "link.png",
+    "toolbar": false,
+    "frame": false,
+    "width": 800,
+    "height": 600,
+    "position": "mouse",
+    "min_width": 800,
+    "min_height": 600,
+    "max_width": 800,
+    "max_height": 600
+  },
+  "webkit": {
+    "plugin": false
+  }
+}
